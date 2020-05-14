@@ -1,0 +1,95 @@
+    %azul: #80d4ff
+    %verde: #66ff99
+    %branco: #ffffff
+
+    html {
+        min-height: 100%;
+    }
+
+    @media (min-width: 900px) {
+        body {
+            background: -webkit-linear-gradient(left, %azul, %branco); 
+            background: -o-linear-gradient(right, %azul, %branco); 
+            background: -moz-linear-gradient(right, %azul, %branco); 
+            background: linear-gradient(to right, %azul, %branco); 
+            background-color: #80d4ff; 
+        }
+    }
+
+    @media (max-width: 899px) {
+        body {
+            background: -webkit-linear-gradient(left, %verde, %branco); 
+            background: -o-linear-gradient(right, %verde, %branco); 
+            background: -moz-linear-gradient(right, %verde, %branco); 
+            background: linear-gradient(to right, %verde, %branco); 
+            background-color: #66ff99; 
+        }
+    }
+
+    h1{
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    h3{
+        font-family: sans-serif;
+        text-align: center;
+        color:black;
+        font-size: 25px;
+    }
+
+    h4{
+        font-family: sans-serif;
+        
+        color:gray;
+        text-align: center;
+    }
+
+    .maravilha > img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:70%;
+    }
+    div{
+        padding: 10px;
+        
+    }
+
+    .lugar:hover{
+        background-color: rgb(0, 60, 179);
+        font-family: sans-serif;
+        color: rgb(255,255,255);
+    }
+
+    .lugar{
+        color:rgb(102, 153, 255);
+    }
+
+    
+    th, td{
+        margin: 7px;
+        padding: 7px;
+    }
+  
+    table{
+        display: block;
+        margin-left:auto;
+        margin-right:auto;
+        width: 410px;
+        border: 2px solid gray;
+        font-family: sans-serif;
+    }
+
+    a:link, a:visited, a:active {
+        text-decoration:none;
+        color:rgb(102, 153, 255);
+    }
+
+    .lugar > a:hover{
+        font-family: sans-serif;
+        color:rgb(255,255,255); 
+        background:rgb(0, 60, 179); 
+    }
+
+   
